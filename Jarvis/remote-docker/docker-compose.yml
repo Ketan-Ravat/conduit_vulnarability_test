@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  beanstalk-flask:
+    image: "165183897698.dkr.ecr.us-east-2.amazonaws.com/conduit-qa-be-ecr:latest"
+    ports:
+      - "5432:80"
+      
+  auth-token:
+    image: "165183897698.dkr.ecr.us-east-2.amazonaws.com/conduit-qa-auth-service-ecr:latest"
+    ports:
+      - "5001:5000"
+
+  conduit-frontend:
+    image: "165183897698.dkr.ecr.us-east-2.amazonaws.com/conduit-qa-fe-ecr:latest"
+    ports:
+      - "80:80"

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "eg-ai-441802",
+  "private_key_id": "c884af3993975a498fd4a58316b00a3c324ab153",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDe+t9ICxy5pf38\nVptgmILBaFyGGeyh8Dp6gO8Gx+4xXbw7W0zKHHca6/Ted3mZNrwfT4MD3eMyHr9F\n//hBwr8WDEtkGvYL0ebYPZvZCjDFDDMnA98DDEDGrR9ydZYszlvBV4nKyUd+UoLB\nbNm5ZUchbjcNWTiTKAVcTU1MBORDWMjCwXddTLQBo0YiEfhWbIvkVJK2AxpraQLp\nIYy2rnnnS+x+8To+uhrdxrGoShpSQpZMsJhe5LT95pzyln9C6IAPTK13Zj/wnBDu\n+xtYC/Q/O7ovwsqM3aC27Eivgo4XjiJTpNx+kG8twuZZFNmmhVyUcGNCSdLBhLPL\nHEyAhFg7AgMBAAECggEAM7UOYRj+lMh64PC+gERtkecfCZPqbVUVYoISq8piIH2B\noGwYHwhB0HLmKk6fWpm4PzSDh7qFLIK3zUZB7hH4mObJ9tFPvEb1FrEWulpkG9Wr\n6QC7Tuwg+1F7KOI+rG5AFdI0aFuLoi4FF1CkHptvRr/VsVk+xtUxhQmCAr5hpoH5\n4AbX8Kn0/v7ohN2+1WkBxDoJ1hgba+1iGj0m9vkp8OQQfxoEXGzDydgAC85/isr2\nUAcwdx7NQTvaah0cUuNx1Q4cxd/8sbKesy+OrCBvYldzfjy1BC3Cekl3f8mDS5iz\nMQ/CMqsOxtoU8lEpQ+9yY2TQ0wTobVBxs9pqLwdbiQKBgQDxB+NINitL1ItYxqWU\nL+9lftxzZPM72kf5Y1K1Gh2BxNc8w/ZS3HAIJgXeoM3ZLtJU+QIFEvsnA3g/TolN\n8kikeQYigFgh4nyol55PXKQpYaaA4jNaaSF1xQEi78eqfurUGoSnIfRsx0cr0rqv\n3/ZMiihrk1qLe5TChO7cVOwyMwKBgQDs0/8s6ZBv7xseeN9JaA9rY5gktGwlNres\nCBT7GgQuZkGfg6/CbWEsGedIdUeOy/z+CkntZymvZduEoPw/bCtykVDQC828MRZd\nFW+MK6oI5GQZOibRlKiOxFZVws/8YbLMSSm4r4YlSZ87ipqNJFSn8Qb3x11AR2Ey\n3xoKaU4J2QKBgQCq75sihTgjaTMB3K9k7rHq2xNgywEtO1q75NKtGT4/3+d9csRo\nc2kIfl6/Sm9yTSBhns7t5k4zluRakUoS+3bFHgdZxIe8UDF0J0LgqaTKrDQ3RzSA\nM/rE2Ng7fK2vnp7PmZbmKNB9rL4uuB4pyL2V/o037aLTNOuFIF196MQxvQKBgGbi\nZk3lnejy0C45xo8GVQSLPNJdS0oTblGfJTY9BCoAJGwe8mEd0YQuMKrqwE6J0fuv\nDpTDJ3naXzZMFamb3XglJx1qs1MZZCTGJjKX2YOJbO8Es06DLYLwSq1xN5fl/Z3/\n/s8L+dQDGtjsCt5cNSbMcAF+q8U7/T7za0Wwn8VpAoGAVpIFLYOOYkeLrMP/zcXN\nUV+jJN7AwiKO2jDSiokAFLWc2Uvqg2JRvDsJyLhLizlTTxyjOq+8WENKsWM0PabG\nHQjlEpLCrhlVVztxBmEfzhTaO5DpgUTNJEutytBlMIjn9bSLqG5yiVP6CLCUxX6j\nKMscCTovzJifFnXypJGYvnk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "eg-ai-schedule-wo-calendar-pro@eg-ai-441802.iam.gserviceaccount.com",
+  "client_id": "105693747093028532059",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/eg-ai-schedule-wo-calendar-pro%40eg-ai-441802.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

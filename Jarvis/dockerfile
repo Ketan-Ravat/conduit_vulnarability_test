@@ -1,0 +1,30 @@
+# Get base SDK Image from Microsoft
+FROM mcr.Microsoft.com/dotnet/core/sdk:3.0 AS build-env
+WORKDIR /app
+
+# Copy the CSPROJ file and restore any dependency (via Nuget)
+COPY Jarvis.sln ./
+COPY Jarvis/*.csproj ./Jarvis/
+COPY Jarvis.db/*.*.csproj ./Jarvis.db/
+COPY Jarvis.Repo/*.*.csproj ./Jarvis.Repo/
+COPY Jarvis.Service/*.*.csproj ./Jarvis.Service/
+COPY Jarvis.ViewModels/*.*.csproj ./Jarvis.ViewModels/
+COPY Jarvis.Shared/*.*.csproj ./Jarvis.Shared/
+RUN dotnet restore
+
+# Copy the project files and build our release 
+COPY . ./
+RUN dotnet publish -c release -o out
+
+WORKDIR /app
+#Generate Runtime Image 
+FROM mcr.Microsoft.com/dotnet/core/aspnet:3.0
+RUN mkdir EmailTemplete
+COPY Jarvis/EmailTemplete/ /app/EmailTemplete/
+COPY Jarvis/Jarvis.ViewModels.xml /app/
+RUN apt-get update
+RUN apt-get install -y libgdiplus
+WORKDIR /app
+EXPOSE 80
+COPY --from=build-env /app/out .
+ENTRYPOINT [ "dotnet" , "Jarvis.dll"]

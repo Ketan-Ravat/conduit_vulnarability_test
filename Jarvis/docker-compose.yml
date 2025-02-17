@@ -1,0 +1,20 @@
+version: '3.4'
+
+networks: 
+  jarvisapi-dev:
+    driver: bridge
+
+
+services: 
+    services1: 
+      container_name: 'jarvisapp'
+      image: 'jarvisapp'
+      build: 
+        context: .
+        dockerfile: dockerfile
+      volumes: 
+        - .:/var/www/jarvisapp
+      ports: 
+        - "44382:80"
+      networks: 
+        - jarvisapi-dev

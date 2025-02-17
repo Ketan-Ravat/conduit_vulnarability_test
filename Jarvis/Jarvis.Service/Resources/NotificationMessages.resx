@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActivityPMDueHeader" xml:space="preserve">
+    <value>PM Due</value>
+  </data>
+  <data name="ActivityPMDueMeterHoursMessage" xml:space="preserve">
+    <value>{pm_name} for {Asset_Name} is overdue.</value>
+  </data>
+  <data name="AutoApprovedInspectionOperator" xml:space="preserve">
+    <value>Requested {Asset_Name} has been auto approved</value>
+  </data>
+  <data name="AutoApprovedInspectionOperatorHeader" xml:space="preserve">
+    <value>Asset Auto Approved</value>
+  </data>
+  <data name="AutoApproveInspection" xml:space="preserve">
+    <value>Operator {Operator_Name} has been auto approved for {Asset_Name}</value>
+  </data>
+  <data name="AutoApproveInspectionHeader" xml:space="preserve">
+    <value>Asset Auto Approved</value>
+  </data>
+  <data name="CreateIssue" xml:space="preserve">
+    <value>Manager {Manager_Name} has inspected and created issue of {Asset_Name} for {Attribute_Name}</value>
+  </data>
+  <data name="CreateIssueHeader" xml:space="preserve">
+    <value>Issue Created</value>
+  </data>
+  <data name="CreateIssueWithApprovedAsset" xml:space="preserve">
+    <value>Manager {Manager_Name} has approved the asset and created issue for {Asset_Name}</value>
+  </data>
+  <data name="CreateIssueWithApprovedAssetHeader" xml:space="preserve">
+    <value>Asset Approved &amp; Issue Created</value>
+  </data>
+  <data name="InspectionCompletedHeader" xml:space="preserve">
+    <value>Inspection Completed</value>
+  </data>
+  <data name="InspectionCompletedMessage" xml:space="preserve">
+    <value>Inspection Completed on {Asset_Name}.</value>
+  </data>
+  <data name="InspectionCreatedHeader" xml:space="preserve">
+    <value>Inspection Accept request</value>
+  </data>
+  <data name="InspectionCreatedMessage" xml:space="preserve">
+    <value>{Asset_Name} is requested by {operator_name}.</value>
+  </data>
+  <data name="IssueCreatedHeader" xml:space="preserve">
+    <value>Issue Created</value>
+  </data>
+  <data name="IssueCreatedMessage" xml:space="preserve">
+    <value>{issue_name} Created.</value>
+  </data>
+  <data name="IssueResolvedHeader" xml:space="preserve">
+    <value>Issue Resolved</value>
+  </data>
+  <data name="IssueResolvedMessage" xml:space="preserve">
+    <value>{issue_name} Resolved.</value>
+  </data>
+  <data name="ManagerApproveInspection" xml:space="preserve">
+    <value>Manager {Manager_Name} has inspected and approved {Asset_Name}</value>
+  </data>
+  <data name="ManagerApproveInspectionHeader" xml:space="preserve">
+    <value>Asset Approved</value>
+  </data>
+  <data name="NewIssueForInspection" xml:space="preserve">
+    <value>Manager {Manager_Name} has inspected and created issue for {Asset_Name}</value>
+  </data>
+  <data name="NewIssueForInspectionHeader" xml:space="preserve">
+    <value>Issue Created</value>
+  </data>
+  <data name="PendingNewInspection" xml:space="preserve">
+    <value>Operator {Operator_Name} is asking for approval for {Asset_Name}</value>
+  </data>
+  <data name="PendingNewInspectionHeader" xml:space="preserve">
+    <value>Asset Approval</value>
+  </data>
+  <data name="PMNotificationDueDateReminder" xml:space="preserve">
+    <value>{pm_name} for {Asset_Name} will be due in {time}.</value>
+  </data>
+  <data name="PMNotificationDueDateReminderHeader" xml:space="preserve">
+    <value>PM Due Reminder</value>
+  </data>
+  <data name="PMNotificationFinalReminderHeader" xml:space="preserve">
+    <value>PM Due - Final Notification for {Asset_Name}</value>
+  </data>
+  <data name="PMNotificationFirstReminderHeader" xml:space="preserve">
+    <value>PM Upcoming - 1st Notification for {Asset_Name}</value>
+  </data>
+  <data name="PMNotificationMeterHoursReminder" xml:space="preserve">
+    <value>{pm_name} for {Asset_Name} .</value>
+  </data>
+  <data name="PMNotificationMeterHoursReminderHeader" xml:space="preserve">
+    <value>PM Due Reminder</value>
+  </data>
+  <data name="PMNotificationOnDue" xml:space="preserve">
+    <value>{pm_name} for {Asset_Name} is due now.</value>
+  </data>
+  <data name="PMNotificationOnDueHeader" xml:space="preserve">
+    <value>PM Due</value>
+  </data>
+  <data name="PMNotificationSecondReminderHeader" xml:space="preserve">
+    <value>PM Upcoming - 2nd Notification for {Asset_Name}</value>
+  </data>
+  <data name="RejectInspection" xml:space="preserve">
+    <value>Manager {Manager_Name} has inspected and Rejected {Asset_Name}</value>
+  </data>
+  <data name="RejectInspectionHeader" xml:space="preserve">
+    <value>Asset Rejected</value>
+  </data>
+  <data name="UpdateIssuePriority" xml:space="preserve">
+    <value>Manager {Manager_Name} has updated the priority of issue to {Priority} for {Asset_Name}</value>
+  </data>
+  <data name="UpdateIssuePriorityHeader" xml:space="preserve">
+    <value>Update Issue Priority</value>
+  </data>
+  <data name="UpdateIssueStatus" xml:space="preserve">
+    <value>{Maintenancestaff_Name} has updated the status of issue to {WorkOrder_Status} of {Attribute_Name} for {Asset_Name}</value>
+  </data>
+  <data name="UpdateIssueStatusHeader" xml:space="preserve">
+    <value>Update Issue Status</value>
+  </data>
+  <data name="WorkOrderCreatedHeader" xml:space="preserve">
+    <value>Work Order Created</value>
+  </data>
+  <data name="WorkOrderCreatedMessage" xml:space="preserve">
+    <value>{title} Created {workorder_type} for Asset {Asset_Name}.</value>
+  </data>
+  <data name="WorkOrderUpdatedHeader" xml:space="preserve">
+    <value>Work Order Updated</value>
+  </data>
+  <data name="WorkOrderUpdatedMessage" xml:space="preserve">
+    <value>{title} Updated, Status changes to {status_value} for Asset {Asset_Name}.</value>
+  </data>
+  <data name="WorkOrderDeletedHeader" xml:space="preserve">
+    <value>Work Order Deleted</value>
+  </data>
+  <data name="WorkOrderDeletedMessage" xml:space="preserve">
+    <value>{title} Deleted on Status {status_value} for Asset {Asset_Name}.</value>
+  </data>
+  <data name="WorkOrderIssueLinkHeader" xml:space="preserve">
+    <value>Work Order Issue Linked</value>
+  </data>
+  <data name="WorkOrderIssueLinkMessage" xml:space="preserve">
+    <value>#{issue_number} {title} Issue Linked</value>
+  </data>
+  <data name="WorkOrderIssueUnLinkHeader" xml:space="preserve">
+    <value>Work Order Issue Unlinked</value>
+  </data>
+  <data name="WorkOrderIssueUnLinkMessage" xml:space="preserve">
+    <value>#{issue_number} {title} Issue Unlinked</value>
+  </data>
+  <data name="WorkOrderDateUpdatedMessage" xml:space="preserve">
+    <value>{title} Updated, Date changes to {date_value} for Asset {Asset_Name}</value>
+  </data>
+</root>

@@ -1,0 +1,1061 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Jarvis.ViewModels</name>
+    </assembly>
+    <members>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.AssetPMNotificationRequestModel.first_reminder_before_on_status">
+            <summary>
+            1 = Active
+            2 = Inactive
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.AssetPMNotificationRequestModel.first_reminder_before_on_type">
+            <summary>
+            29 = Month
+            39 = Week
+            40 = Day
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.AssetPMNotificationRequestModel.second_reminder_before_on_status">
+            <summary>
+            1 = Active
+            2 = Inactive
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.AssetPMNotificationRequestModel.second_reminder_before_on_type">
+            <summary>
+            29 = Month
+            39 = Week
+            40 = Day
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.AssetPMNotificationRequestModel.due_at_reminder_status">
+            <summary>
+            1 = Active
+            2 = Inactive
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.AssetPMNotificationRequestModel.first_reminder_before_on_meter_hours_status">
+            <summary>
+            1 = Active
+            2 = Inactive
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.AssetPMNotificationRequestModel.second_reminder_before_on_meter_hours_status">
+            <summary>
+            1 = Active
+            2 = Inactive
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.AssetPMNotificationRequestModel.due_at_reminder_meter_hours_status">
+            <summary>
+            1 = Active
+            2 = Inactive
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.AssetPMNotificationRequestModel.status">
+            <summary>
+            1 = Active
+            2 = Inactive
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.CompanyPMNotificationRequestModel.first_reminder_before_on_status">
+            <summary>
+            1 = Active
+            2 = Inactive
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.CompanyPMNotificationRequestModel.first_reminder_before_on_type">
+            <summary>
+            29 = Month
+            39 = Week
+            40 = Day
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.CompanyPMNotificationRequestModel.second_reminder_before_on_status">
+            <summary>
+            1 = Active
+            2 = Inactive
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.CompanyPMNotificationRequestModel.second_reminder_before_on_type">
+            <summary>
+            29 = Month
+            39 = Week
+            40 = Day
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.CompanyPMNotificationRequestModel.due_at_reminder_status">
+            <summary>
+            1 = Active
+            2 = Inactive
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.CompanyPMNotificationRequestModel.first_reminder_before_on_meter_hours_status">
+            <summary>
+            1 = Active
+            2 = Inactive
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.CompanyPMNotificationRequestModel.second_reminder_before_on_meter_hours_status">
+            <summary>
+            1 = Active
+            2 = Inactive
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.CompanyPMNotificationRequestModel.due_at_reminder_meter_hours_status">
+            <summary>
+            1 = Active
+            2 = Inactive
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.CompanyPMNotificationRequestModel.status">
+            <summary>
+            1 = Active
+            2 = Inactive
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.DashboardPendingPMItemsRequestModel.pm_status">
+            <summary>
+            OverDue = 33,
+            Open = 31,
+            PMWaiting = 42,
+            PMInProgress = 43
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.DashboardPendingPMItemsRequestModel.pm_filter_type">
+            <summary>
+            All = 0
+            Current/Upcoming = 1
+            Completed = 2
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.DeviceInfoRequestModel.requested_by">
+            <summary>
+            Enter Login User UserID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.DeviceInfoRequestModel.device_uuid">
+            <summary>
+            Enter Device UUID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.DeviceInfoRequestModel.device_code">
+            <summary>
+            Enter Divice Code
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.DeviceInfoRequestModel.company_code">
+            <summary>
+            Enter Company Code
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.DeviceInfoRequestModel.name">
+            <summary>
+            Enter Divice Name
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.DeviceInfoRequestModel.type">
+            <summary>
+            Enter Divice Type
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.DeviceInfoRequestModel.brand">
+            <summary>
+            Enter Divice Brand
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.DeviceInfoRequestModel.model">
+            <summary>
+            Enter Divice Model
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.DeviceInfoRequestModel.version">
+            <summary>
+            Enter Divice Version
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.DeviceInfoRequestModel.os">
+            <summary>
+            Enter Divice OS
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.DeviceInfoRequestModel.mac_address">
+            <summary>
+            Enter Mac Address
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.DeviceInfoRequestModel.company_id">
+            <summary>
+            Enter Device Associated Company ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.DeviceInfoRequestModel.app_version">
+            <summary>
+            Enter Installed App Version for this Device
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterAssetsOptionsRequestModel.status">
+            <summary>
+            Enter Status of Asset 
+            1	Active
+            2	Inactive
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterAssetsOptionsRequestModel.asset_id">
+            <summary>
+            Enter Asset ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterAssetsOptionsRequestModel.internal_asset_id">
+            <summary>
+            Enter Internal Asset ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterAssetsOptionsRequestModel.model_name">
+            <summary>
+            Enter Model Name
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterAssetsOptionsRequestModel.model_year">
+            <summary>
+            Enter Model year
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterAssetsOptionsRequestModel.show_open_issues">
+            <summary>
+            Enter 0 To get all else 1 to show only open issues asset
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterAssetsOptionsRequestModel.search_string">
+            <summary>
+            Enter Search String
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterAssetsOptionsRequestModel.option_search_string">
+            <summary>
+            Enter Option Search String
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterAssetsRequestModel.status">
+            <summary>
+            Enter Status of Asset 
+            1	Active
+            2	Inactive
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterAssetsRequestModel.asset_id">
+            <summary>
+            Enter Asset ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterAssetsRequestModel.internal_asset_id">
+            <summary>
+            Enter Internal Asset ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterAssetsRequestModel.model_name">
+            <summary>
+            Enter Model Name
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterAssetsRequestModel.model_year">
+            <summary>
+            Enter Model year
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterAssetsRequestModel.show_open_issues">
+            <summary>
+            Enter 0 To get all else 1 to show only open issues asset
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterAssetsRequestModel.search_string">
+            <summary>
+            Enter Search String
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterAssetsRequestModel.Levels">
+            <summary>
+            Enter Levels for filter
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterAssetsRequestModel.form_io_form_id">
+            <summary>
+            for BE use only
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterBaseRequestModel.pagesize">
+            <summary>
+            Page Size Default 20
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterBaseRequestModel.pageindex">
+            <summary>
+            Enter Page Index
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterBaseRequestModel.site_id">
+            <summary>
+            Enter Site Id or Null
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterBaseRequestModel.company_id">
+            <summary>
+            Enter Company Id or Null
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterDeviceRequestModel.status">
+            <summary>
+            Enter Status of Device 
+            1	Approved
+            2	Not Approved
+            0   All
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterDeviceRequestModel.brand">
+            <summary>
+            Enter BRAND
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterDeviceRequestModel.model">
+            <summary>
+            Enter Model
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterDeviceRequestModel.os">
+            <summary>
+            Enter OS
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterDeviceRequestModel.search_string">
+            <summary>
+            Enter Search String
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterDeviceRequestModel.option_search_string">
+            <summary>
+            Enter Search String
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterDeviceRequestModel.type">
+            <summary>
+            Enter BRAND
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterInspectionOptionsRequestModel.status">
+            <summary>
+            Enter Status of Inspection 
+            8	Pending
+            9	Cancelled
+            16	Rejected
+            11	InMaintenance
+            10	Accepted
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterInspectionOptionsRequestModel.asset_id">
+            <summary>
+            Enter Asset ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterInspectionOptionsRequestModel.internal_asset_id">
+            <summary>
+            Enter Internal Asset ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterInspectionOptionsRequestModel.shift_number">
+            <summary>
+            Enter Shift Number from 1,2,3
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterInspectionOptionsRequestModel.requestor_id">
+            <summary>
+            Enter Operators
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterInspectionOptionsRequestModel.new_not_ok_attribute">
+            <summary>
+            Enter 0 To get all Records 1 to get only new not ok record
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterInspectionOptionsRequestModel.search_string">
+            <summary>
+            Enter Search String
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterInspectionOptionsRequestModel.option_search_string">
+            <summary>
+            Enter Search String
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterInspectionOptionsRequestModel.timezone">
+            <summary>
+            Enter Timezone
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterInspectionOptionsRequestModel.manager_id">
+            <summary>
+            Enter Manager
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterInspectionsRequestModel.status">
+            <summary>
+            Enter Status of Inspection 
+            8	Pending
+            9	Cancelled
+            16	Rejected
+            11	InMaintenance
+            10	Accepted
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterInspectionsRequestModel.asset_id">
+            <summary>
+            Enter Asset ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterInspectionsRequestModel.internal_asset_id">
+            <summary>
+            Enter Internal Asset ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterInspectionsRequestModel.shift_number">
+            <summary>
+            Enter Shift Number from 1,2,3
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterInspectionsRequestModel.requestor_id">
+            <summary>
+            Enter Operators
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterInspectionsRequestModel.new_not_ok_attribute">
+            <summary>
+            Enter 0 To get all Records 1 to get only new not ok record
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterInspectionsRequestModel.search_string">
+            <summary>
+            Enter Search String
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterInspectionsRequestModel.timezone">
+            <summary>
+            Enter Timezone
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterInspectionsRequestModel.manager_id">
+            <summary>
+            Enter Manager
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterMaintenanceRequestModel.mr_id">
+            <summary>
+            Enter Status of Issue 
+            MROpen = 48,
+            MRCancelled = 49,
+            MRCompeleted = 50,
+            MRWorkOrderCreated = 51,
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterMaintenanceRequestModel.type">
+            <summary>
+            Enter Maintenance Type
+            Manual = 52,
+            Inspection = 53,
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterMaintenanceRequestModel.requested_by">
+            /// <summary>
+            Enter Requested By
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterMaintenanceRequestModel.search_string">
+            <summary>
+            search string
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterMaintenanceRequestModel.option_search_string">
+            <summary>
+            search option string
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterMaintenanceRequestModel.mr_filter_type">
+            <summary>
+            All = 0
+            Open = 48
+            Cancelled = 49
+            Completed = 50
+            Work Order Created = 51
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterPendingPMItemsOptionsRequestModel.pm_status">
+            <summary>
+            OverDue = 33,
+            Open = 31,
+            PMWaiting = 42,
+            PMInProgress = 43
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterPendingPMItemsOptionsRequestModel.pm_filter_type">
+            <summary>
+            All = 0
+            Current/Upcoming = 1
+            Completed = 2
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterUsersRequestModel.status">
+            <summary>
+            Enter Status of Asset 
+            0   All
+            1	Active
+            2	Inactive
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterUsersRequestModel.role_id">
+            <summary>
+            Enter Role ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterUsersRequestModel.search_string">
+            <summary>
+            Enter Search String
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterUsersRequestModel.option_search_string">
+            <summary>
+            Enter Option Search String
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterWorkOrderOptionsRequestModel.wo_number">
+            <summary>
+            Enter Work Order Number
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterWorkOrderOptionsRequestModel.wo_id">
+            <summary>
+            Enter Work Order title
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterWorkOrderOptionsRequestModel.priority">
+            <summary>
+            Enter priority 
+            Low = 45,
+            Medium = 46,
+            High = 47
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterWorkOrderOptionsRequestModel.status">
+            <summary>
+            Enter Status of Inspection 
+            WOOpen = 54,
+            WOInProgress = 55,
+            WOCompleted = 56,
+            WOCancelled = 57,
+            WOReOpen = 58
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterWorkOrderOptionsRequestModel.search_string">
+            <summary>
+            Enter Search String
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterWorkOrderOptionsRequestModel.option_search_string">
+            <summary>
+            Enter Search String
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterWorkOrderOptionsRequestModel.wo_type">
+            <summary>
+            Enter work order type
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterIssueRequestModel.status">
+            <summary>
+            Enter Status of Issue 
+            New = 12,
+            InProgress = 13,
+            Waiting = 14,
+            Completed = 15,
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterIssueRequestModel.asset_id">
+            <summary>
+            Enter Asset ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterIssueRequestModel.search_string">
+            <summary>
+            search string
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterIssueRequestModel.priority">
+            <summary>
+            Enter Priority
+            Very_High = 1,
+            High = 2,
+            Medium = 3,
+            Low = 4
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterIssueRequestModel.issue_title">
+            <summary>
+            Enter Issue Title
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterIssueRequestModel.timezone">
+            <summary>
+            Enter Timezone
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FilterIssueRequestModel.option_search_string">
+            <summary>
+            search option string
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.FormIOPIChartCountResponseModel.Operating_Normally">
+            new values based on assets operating condition
+            
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.GetAllMRRequestModel.mr_id">
+            <summary>
+            Enter Status of Issue 
+            MROpen = 48,
+            MRCancelled = 49,
+            MRCompeleted = 50,
+            MRWorkOrderCreated = 51,
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.GetAllMRRequestModel.type">
+            <summary>
+            Enter Maintenance Type
+            Manual = 52,
+            Inspection = 53,
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.GetAllMRRequestModel.mr_filter_type">
+            <summary>
+            All = 0
+            Open = 48
+            Cancelled = 49
+            Completed = 50
+            Work Order Created = 51
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.NewFlowCreateWORequestModel.Description">
+            Enterprice
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.UpdateAssetPMRequestModel.status">
+            <summary>
+            Open = 31,
+            Waiting = 42,
+            In Progress = 43,
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.RequestResponseViewModel.UpdateNotificationStatusRequestModel.status">
+            <summary>
+            1 = New
+            2 = Read
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AddAssetRequestModel.company_id">
+            <summary>
+            Enter Company ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.asset_id">
+            <summary>
+            Enter Asset ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.internal_asset_id">
+            <summary>
+            Enter Internal Asset ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.company_id">
+            <summary>
+            Enter Company ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.site_id">
+            <summary>
+            Enter Site ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.status">
+            <summary>
+            Enter Status
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.inspectionform_id">
+            <summary>
+            Enter Inspection Form ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.usage">
+            <summary>
+            Enter Usage
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.meter_hours">
+            <summary>
+            Enter Meter Hours
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.name">
+            <summary>
+            Enter Asset Name
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.asset_type">
+            <summary>
+            Enter Asset Type
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.product_name">
+            <summary>
+            Enter Product Name
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.model_name">
+            <summary>
+            Enter Model Name
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.asset_serial_number">
+            <summary>
+            Enter Asset Serial Number
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.model_year">
+            <summary>
+            Enter Model Year
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.site_location">
+            <summary>
+            Enter Site Location
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.current_stage">
+            <summary>
+            Enter Current Stage
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.parent">
+            <summary>
+            Enter Asset Parent
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.children">
+            <summary>
+            Enter Asset Children
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.levels">
+            <summary>
+            Enter Asset Levels
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.condition_index">
+            <summary>
+            Enter Asset Condition Index
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.criticality_index">
+            <summary>
+            Enter Asset Criticality Index
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.condition_state">
+            <summary>
+            Enter Asset Condition State
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.asset_barcode_id">
+            <summary>
+            Enter Barcode Id
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetRequestModel.client_internal_id">
+            <summary>
+            client_internal_id
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetValueJsonObjectRequestModel.id">
+            <summary>
+            Enter Attribute ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetValueJsonObjectRequestModel.name">
+            <summary>
+            Enter Attribute Name
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetValueJsonObjectRequestModel.type">
+            <summary>
+            Enter Attribute Type
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.AssetValueJsonObjectRequestModel.value">
+            <summary>
+            Enter Attribute Value
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.GenerateAssetBarcodeRequestModel.assetList">
+            <summary>
+            Enter List Of Asset ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.GetAssetsByIdRequestModel.internal_asset_id">
+            <summary>
+            Enter Internal Asset ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.GetAssetsByIdRequestModel.barcode_id">
+            <summary>
+            Enter Asset ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.GetAssetsByIdRequestModel.asset_id">
+            <summary>
+            Enter Asset ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.GetAssetsByIdRequestModel.form_io_form_id">
+            <summary>
+            for BE use only
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.GetAssetsByIdRequestModel.qr_code">
+            <summary>
+            Enter Asset ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.InspectionRequestModel.userid">
+            <summary>
+            Enter User ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.InspectionRequestModel.inspection_id">
+            <summary>
+            Enter Inspection ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.InspectionRequestModel.asset_id">
+            <summary>
+            Enter Asset ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.InspectionRequestModel.operator_id">
+            <summary>
+            Enter Operator ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.InspectionRequestModel.manager_id">
+            <summary>
+            Enter Manager ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.InspectionRequestModel.status">
+            <summary>
+            Enter Inspection Status
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.InspectionRequestModel.operator_notes">
+            <summary>
+            Enter Operator Notes 
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.InspectionRequestModel.company_id">
+            <summary>
+            Enter Company ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.InspectionRequestModel.site_id">
+            <summary>
+            Enter Site ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.InspectionRequestModel.created_at">
+            <summary>
+            Enter Created Date Time
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.InspectionRequestModel.modified_at">
+            <summary>
+            Enter Modified Date Time
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.InspectionRequestModel.meter_hours">
+            <summary>
+            Enter Meter Hours
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.InspectionRequestModel.shift">
+            <summary>
+            Enter Shift
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.InspectionRequestModel.image_list">
+            <summary>
+            Enter Images
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.InspectionRequestModel.manager_notes">
+            <summary>
+            Enter Manager Notes
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.InspectionRequestModel.datetime_requested">
+            <summary>
+            Enter Requested Date Time
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.IssueRequestModel.userid">
+            <summary>
+            Enter Login User UserID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.IssueRequestModel.issue_uuid">
+            <summary>
+            Enter Work Order UUID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.IssueRequestModel.asset_id">
+            <summary>
+            Enter Asset ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.IssueRequestModel.inspection_id">
+            <summary>
+            Enter Inspection ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.IssueRequestModel.name">
+            <summary>
+            Enter Work Order Name
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.IssueRequestModel.description">
+            <summary>
+            Enter Work Order Description
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.IssueRequestModel.notes">
+            <summary>
+            Enter Work Order Notes
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.IssueRequestModel.status">
+            <summary>
+            Enter Work Order Status
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.IssueRequestModel.priority">
+            <summary>
+            Enter Work Order Priority
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.IssueRequestModel.site_id">
+            <summary>
+            Enter Site ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.IssueRequestModel.company_id">
+            <summary>
+            Enter Company ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.IssueRequestModel.isapprove">
+            <summary>
+            Is Approved
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.IssueRequestModel.internal_asset_id">
+            <summary>
+            Enter Internal Asset ID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.IssueRequestModel.attachtoinspection">
+            <summary>
+            Attach With Inspection 
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.UpdateUserPasswordRequestModel.token">
+            <summary>
+            Enter Token
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.UpdateUserPasswordRequestModel.password">
+            <summary>
+            Enter New Password 
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.UpdateIssueByMaintenanceRequestModel.userid">
+            <summary>
+            Enter Login UserID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.UpdateIssueByMaintenanceRequestModel.issue_uuid">
+            <summary>
+            Work Order UUID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.UpdateIssueByMaintenanceRequestModel.work_order_uuid">
+            <summary>
+            Work Order UUID for Old APP
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.UpdateIssueByMaintenanceRequestModel.status">
+            <summary>
+            Enter Status
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.UpdateIssueByMaintenanceRequestModel.updated_at">
+            <summary>
+            Enter Updated DateTime
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.UpdateIssueByMaintenanceRequestModel.is_sync">
+            <summary>
+            Enter Sync Or Not
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.UpdateIssueRequestModel.issue_uuid">
+            <summary>
+            Enter Work Order UUID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.UpdateIssueRequestModel.title">
+            <summary>
+            Enter Work Order Title
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.UpdateIssueRequestModel.notes">
+            <summary>
+            Enter Work Order Notes
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.UpdateIssueRequestModel.priority">
+            <summary>
+            Enter Work Order Priority
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.UpdateIssueRequestModel.status">
+            <summary>
+            Enter Work Order Status
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.UpdateIssueRequestModel.userid">
+            <summary>
+            Enter Login User UserID
+            </summary>
+        </member>
+        <member name="P:Jarvis.ViewModels.UpdateIssueRequestModel.updated_at">
+            <summary>
+            Enter Updated By UserID
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,157 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations_ssserver\**" />
+    <EmbeddedResource Remove="Migrations_ssserver\**" />
+    <None Remove="Migrations_ssserver\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20191202113849_Test.cs" />
+    <Compile Remove="Migrations\20191202113849_Test.Designer.cs" />
+    <Compile Remove="Migrations\20191209101942_UpdateWorkOrderForSite.cs" />
+    <Compile Remove="Migrations\20191209101942_UpdateWorkOrderForSite.Designer.cs" />
+    <Compile Remove="Migrations\20200521090515_adddeviceinfo-table.cs" />
+    <Compile Remove="Migrations\20200521090515_adddeviceinfo-table.Designer.cs" />
+    <Compile Remove="Migrations\20200521090705_adddeviceinfo-table.cs" />
+    <Compile Remove="Migrations\20200521090705_adddeviceinfo-table.Designer.cs" />
+    <Compile Remove="Migrations\20200521091227_adddeviceinfo-table.cs" />
+    <Compile Remove="Migrations\20200521091227_adddeviceinfo-table.Designer.cs" />
+    <Compile Remove="Migrations\20200521091933_adddeviceinfo-table.cs" />
+    <Compile Remove="Migrations\20200521091933_adddeviceinfo-table.Designer.cs" />
+    <Compile Remove="Migrations\20200527072701_add-sync-info-table.cs" />
+    <Compile Remove="Migrations\20200527072701_add-sync-info-table.Designer.cs" />
+    <Compile Remove="Migrations\20200527073408_add-sync-info-table.cs" />
+    <Compile Remove="Migrations\20200527073408_add-sync-info-table.Designer.cs" />
+    <Compile Remove="Migrations\20200610064609_prefer_lang_master_table.cs" />
+    <Compile Remove="Migrations\20200610064609_prefer_lang_master_table.Designer.cs" />
+    <Compile Remove="Migrations\20200615063539_prefer-lang-master.cs" />
+    <Compile Remove="Migrations\20200615063539_prefer-lang-master.Designer.cs" />
+    <Compile Remove="Migrations\20200615063838_prefer-lang-master.cs" />
+    <Compile Remove="Migrations\20200615063838_prefer-lang-master.Designer.cs" />
+    <Compile Remove="Migrations\20201030075513_asset-inspection-report.cs" />
+    <Compile Remove="Migrations\20201030075513_asset-inspection-report.Designer.cs" />
+    <Compile Remove="Migrations\20201030080009_asset-inspection-report.cs" />
+    <Compile Remove="Migrations\20201030080009_asset-inspection-report.Designer.cs" />
+    <Compile Remove="Migrations\20200721081847_default-app-master.cs" />
+    <Compile Remove="Migrations\20200721081847_default-app-master.Designer.cs" />
+    <Compile Remove="Migrations\20200729053856_add-targetrole_key.cs" />
+    <Compile Remove="Migrations\20200729053856_add-targetrole_key.Designer.cs" />
+    <Compile Remove="Migrations\20200731072904_user-access-app.cs" />
+    <Compile Remove="Migrations\20200731072904_user-access-app.Designer.cs" />
+    <Compile Remove="Migrations\20210519113411_RemoveWorkOrdersForeignKeys.cs" />
+    <Compile Remove="Migrations\20210519113411_RemoveWorkOrdersForeignKeys.Designer.cs" />
+    <Compile Remove="Migrations\20211228101057_AddMaintenanceRequestsTable.cs" />
+    <Compile Remove="Migrations\20211228101057_AddMaintenanceRequestsTable.Designer.cs" />
+    <Compile Remove="Migrations\20220110125750_AddWorkOrderTable.cs" />
+    <Compile Remove="Migrations\20220110125750_AddWorkOrderTable.Designer.cs" />
+    <Compile Remove="Migrations\20220117055444_UpdateWorkOrderTable.cs" />
+    <Compile Remove="Migrations\20220117055444_UpdateWorkOrderTable.Designer.cs" />
+    <Compile Remove="Migrations\20220310123033_AddHourlyRateInTaskTable.cs" />
+    <Compile Remove="Migrations\20220310123033_AddHourlyRateInTaskTable.Designer.cs" />
+    <Compile Remove="Migrations\20220401083341_asset-modified_form_id.cs" />
+    <Compile Remove="Migrations\20220401083341_asset-modified_form_id.Designer.cs" />
+    <Compile Remove="Migrations\20220404130420_form-io-modified.cs" />
+    <Compile Remove="Migrations\20220404130420_form-io-modified.Designer.cs" />
+    <Compile Remove="Migrations\20220406095418_AddRequestedByInAssetFormIOTable.cs" />
+    <Compile Remove="Migrations\20220406095418_AddRequestedByInAssetFormIOTable.Designer.cs" />
+    <Compile Remove="Migrations\20220406114900_clientcompany-added.cs" />
+    <Compile Remove="Migrations\20220406114900_clientcompany-added.Designer.cs" />
+    <Compile Remove="Migrations\20220414090137_AddAssetTasks.cs" />
+    <Compile Remove="Migrations\20220414090137_AddAssetTasks.Designer.cs" />
+    <Compile Remove="Migrations\20220414090810_AddAssetTasksTable.cs" />
+    <Compile Remove="Migrations\20220414090810_AddAssetTasksTable.Designer.cs" />
+    <Compile Remove="Migrations\20220414092505_AddAssetTasksTable.cs" />
+    <Compile Remove="Migrations\20220414092505_AddAssetTasksTable.Designer.cs" />
+    <Compile Remove="Migrations\20220422113448_FormTypeTable.cs" />
+    <Compile Remove="Migrations\20220422113448_FormTypeTable.Designer.cs" />
+    <Compile Remove="Migrations\20220422113733_AddFormTypeTable.cs" />
+    <Compile Remove="Migrations\20220422113733_AddFormTypeTable.Designer.cs" />
+    <Compile Remove="Migrations\20220428051042_assetformio-modified.cs" />
+    <Compile Remove="Migrations\20220428051042_assetformio-modified.Designer.cs" />
+    <Compile Remove="Migrations\20220513085207_WOInspectionsTemplateFormIOAssignment-added.cs" />
+    <Compile Remove="Migrations\20220513085207_WOInspectionsTemplateFormIOAssignment-added.Designer.cs" />
+    <Compile Remove="Migrations\20220517130526_AssetFormIO-modifiedv1.cs" />
+    <Compile Remove="Migrations\20220517130526_AssetFormIO-modifiedv1.Designer.cs" />
+    <Compile Remove="Migrations\20220606055956_wo_id_removed_WOcategorytoTaskMapping.cs" />
+    <Compile Remove="Migrations\20220606055956_wo_id_removed_WOcategorytoTaskMapping.Designer.cs" />
+    <Compile Remove="Migrations\20220606062527_wo_id_removed_assetformio.cs" />
+    <Compile Remove="Migrations\20220606062527_wo_id_removed_assetformio.Designer.cs" />
+    <Compile Remove="Migrations\20220606062755_wo_id_removed_assetformio.cs" />
+    <Compile Remove="Migrations\20220606062755_wo_id_removed_assetformio.Designer.cs" />
+    <Compile Remove="Migrations\20220606124917_asset-modified.cs" />
+    <Compile Remove="Migrations\20220606124917_asset-modified.Designer.cs" />
+    <Compile Remove="Migrations\20220609124241_WOcategorytoTaskMapping_asset_added.cs" />
+    <Compile Remove="Migrations\20220609124241_WOcategorytoTaskMapping_asset_added.Designer.cs" />
+    <Compile Remove="Migrations\20220609125557_WOcategorytoTaskMapping_asset_added.cs" />
+    <Compile Remove="Migrations\20220609125557_WOcategorytoTaskMapping_asset_added.Designer.cs" />
+    <Compile Remove="Migrations\20220613070856_asset_form_io-modified.cs" />
+    <Compile Remove="Migrations\20220613070856_asset_form_io-modified.Designer.cs" />
+    <Compile Remove="Migrations\20220613090501_categorytaskmapping_asset_added.cs" />
+    <Compile Remove="Migrations\20220613090501_categorytaskmapping_asset_added.Designer.cs" />
+    <Compile Remove="Migrations\20220817072515_asset_building_mapping.cs" />
+    <Compile Remove="Migrations\20220817072515_asset_building_mapping.Designer.cs" />
+    <Compile Remove="Migrations\20220824090141_keys_changes_building.cs" />
+    <Compile Remove="Migrations\20220824090141_keys_changes_building.Designer.cs" />
+    <Compile Remove="Migrations\20221107055616_assetclass-added.cs" />
+    <Compile Remove="Migrations\20221107055616_assetclass-added.Designer.cs" />
+    <Compile Remove="Migrations\20221205061120_wo_type_added-class_formio_mapping.cs" />
+    <Compile Remove="Migrations\20221205061120_wo_type_added-class_formio_mapping.Designer.cs" />
+    <Compile Remove="Migrations\20221207060245_WOcategorytoTaskMapping-modified.cs" />
+    <Compile Remove="Migrations\20221207060245_WOcategorytoTaskMapping-modified.Designer.cs" />
+    <Compile Remove="Migrations\20221230081904_uploadassetONWOdata_modified.cs" />
+    <Compile Remove="Migrations\20221230081904_uploadassetONWOdata_modified.Designer.cs" />
+    <Compile Remove="Migrations\20221230113925_asset_condition_crytical_type_added.cs" />
+    <Compile Remove="Migrations\20221230113925_asset_condition_crytical_type_added.Designer.cs" />
+    <Compile Remove="Migrations\20230208075302_OBWOAsset_modified.cs" />
+    <Compile Remove="Migrations\20230208075302_OBWOAsset_modified.Designer.cs" />
+    <Compile Remove="Migrations\20230301115159_multiparent_asset_added.cs" />
+    <Compile Remove="Migrations\20230301115159_multiparent_asset_added.Designer.cs" />
+    <Compile Remove="Migrations\20230424111823_replaced_asset_id_added.cs" />
+    <Compile Remove="Migrations\20230424111823_replaced_asset_id_added.Designer.cs" />
+    <Compile Remove="Migrations\20230814122514_asset_attachment-added.cs" />
+    <Compile Remove="Migrations\20230814122514_asset_attachment-added.Designer.cs" />
+    <Compile Remove="Migrations\20231011073835_TempLocationTablesAdded.cs" />
+    <Compile Remove="Migrations\20231011073835_TempLocationTablesAdded.Designer.cs" />
+    <Compile Remove="Migrations\20231018061039_AddedmainLocationidToTempLocation-modified.cs" />
+    <Compile Remove="Migrations\20231018061039_AddedmainLocationidToTempLocation-modified.Designer.cs" />
+    <Compile Remove="Migrations\20231028190819_pm_additional_photos-added.cs" />
+    <Compile Remove="Migrations\20231028190819_pm_additional_photos-added.Designer.cs" />
+    <Compile Remove="Migrations\20240102131636_issue_title_priority-added.cs" />
+    <Compile Remove="Migrations\20240102131636_issue_title_priority-added.Designer.cs" />
+    <Compile Remove="Migrations\20240410063448_is_replaced_asset_id_is_main_WOOnboardingassets.cs" />
+    <Compile Remove="Migrations\20240410063448_is_replaced_asset_id_is_main_WOOnboardingassets.Designer.cs" />
+    <Compile Remove="Migrations\20240515070102_siteId_NetaInspectionBulkReportTracking.cs" />
+    <Compile Remove="Migrations\20240515070102_siteId_NetaInspectionBulkReportTracking.Designer.cs" />
+    <Compile Remove="Migrations\20241119133611_Vendor_Contacts_FeatureTables.cs" />
+    <Compile Remove="Migrations\20241119133611_Vendor_Contacts_FeatureTables.Designer.cs" />
+    <Compile Remove="Models\MaintenanceReqFiles.cs" />
+    <Compile Remove="Models\MaintenanceReqTasks.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Migrations_ssserver\DBContextFactoryModelSnapshot.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.1" />
+    <PackageReference Include="MongoDB.Bson" Version="2.10.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.10.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>
