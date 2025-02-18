@@ -37,8 +37,6 @@ namespace Jarvis.Filter
         public void OnException(ExceptionContext context)
         {
 
-            //var urlWithAccessToken = "https://hooks.slack.com/services/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";
-
             //var client = new SlackClient(urlWithAccessToken);
 
             //client.PostMessage(username: "kaushal jayswal",
